@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Submitted - EduFeed</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f6fa;
+            min-height: 100vh;
+            color: #222;
+        }
+
+        header {
+            background: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #292b55;
+        }
+
+        .logo span {
+            color: #7065df;
+        }
+
+        header p {
+            color: #777;
+            font-size: 14px;
+        }
+
+        main {
+            min-height: calc(100vh - 140px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+        }
+
+        .success-card {
+            background: white;
+            max-width: 500px;
+            width: 100%;
+            padding: 50px 35px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+        }
+
+        .success-icon {
+            width: 85px;
+            height: 85px;
+            background: #e4f8ed;
+            color: #27ae60;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 45px;
+            font-weight: bold;
+            margin: 0 auto 25px;
+        }
+
+        h1 {
+            color: #292b55;
+            font-size: 27px;
+            margin-bottom: 15px;
+        }
+
+        .message {
+            color: #888;
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .info {
+            background: #f7f7fc;
+            padding: 18px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .info p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .info span {
+            color: #7065df;
+            font-size: 13px;
+        }
+
+        .home-btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #7065df;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .home-btn:hover {
+            background: #5b50c5;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 13px;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 20px;
+            }
+
+            .success-card {
+                padding: 40px 22px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+        }
+    </style>
+
+    <header>
+        <div class="logo">Edu<span>Feed.</span></div>
+        <p>Student Feedback Portal</p>
+    </header>
+
+    <main>
+        <div class="success-card">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h1>Feedback Submitted!</h1>
+
+            <p class="message">
+                Thank you for sharing your experience with us.
+                Your feedback has been received successfully.
+            </p>
+
+            <div class="info">
+                <p>We appreciate your time and effort.</p>
+                <span>Your opinion makes a difference ❤️</span>
+            </div>
+
+            <a href="/" class="home-btn">
+                Back to Home
+            </a>
+
+        </div>
+    </main>
+
+    <footer>
+        © 2026 EduFeed. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
